@@ -29,7 +29,7 @@ internal class PermissionHelperInternal {
                     mResponse.onPermanentlyDenied()
                 }
                 else -> {
-                    mResponse.onPermanentlyDenied()
+                    mResponse.onRejected()
                 }
             }
         }
